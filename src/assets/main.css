@@ -76,6 +76,9 @@ body {
 .cloud:nth-child(3) {
   left: 35%;
 }
+.cloud:nth-child(4) {
+  left: 50%;
+}
 .cloud:nth-child(5) {
   left: 65%;
 }
