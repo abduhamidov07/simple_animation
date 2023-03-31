@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+.total {
+  height: 100vh;
+}
+
+.mounts {
+  position: relative;
+  height: 100vh;
+}
+
+.mount {
+  width: 42%;
+  position: absolute;
+  bottom: 0;
+}
+
+.mount:first-child {
+  z-index: 1;
+  left: -12%;
+  /* bottom: -80px; */
+}
+
+.mount:nth-child(2) {
+  left: 8%;
+}
+
+.mount:nth-child(3) {
+  left: 22%;
+}
+.mount:nth-child(4) {
+  left: 34%;
+  z-index: 2;
+}
+.mount:nth-child(5) {
+  left: 50%;
+}
+
+.mount:nth-child(6) {
+  right: 0;
+}
+
+.sun {
+  position: absolute;
+  width: 15%;
+}
+
+.sunT {
+  width: 100%;
+}
+
+.rainbowT {
+  position: absolute;
+  left: 35%;
+  top: 28%;
+  width: 50%;
+}
+
+.clouds {
+  position: relative;
+  gap: 0;
+}
+
+.cloud {
+  width: 20%;
+  position: absolute;
+}
+.cloud:first-child {
+  left: 15%;
+}
+.cloud:nth-child(2) {
+  left: 28%;
+}
+.cloud:nth-child(3) {
+  left: 35%;
+}
+.cloud:nth-child(5) {
+  left: 65%;
+}
+.cloud:last-child {
+  right: 0;
+}
